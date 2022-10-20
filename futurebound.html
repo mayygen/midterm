@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> EDEN </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="bgityttmom">
+
+        <nav class="w3-sidenav w3-black w3-card-8" style="display:none">
+          <a style="text-align: right; padding-right: 15px;padding-top: 10px;padding-bottom: 10px;" href="javascript:void(0)" onclick="w3_close()"
+          class="w3-closenav w3-large">&times;</a>
+          <a style="text-align: center;padding: 10px;"href="index.html">HOME</a>
+          <a style="text-align: center;padding: 10px;"href="discography.html">DISCOGRAPHY</a>
+          <div style="text-align: center;"class="w3-dropdown-hover">
+            <p>ALBUMS / TOURS</p>
+            <div style="padding: 10px;"class="w3-dropdown-content w3-white w3-card-4">
+              <a href="futurebound.html">ityttmom</a>
+              <a href="vertigo.html">vertigo</a>
+              <a href="nofuture.html">no future</a>
+            </div>
+          </div>
+        </nav>
+
+        <header class="w3-container w3-black">
+          <span class="w3-opennav w3-xlarge" onclick="w3_open()">&#9776;</span>
+        </header>
+
+        <div class="mainContainer">
+
+          <div class="ityttmomContainer">
+            <h5>I Think You Think Too Much Of Me<br>
+              (ITYTTMOM)
+            </h5>
+          </div>
+
+          <div class="futureboundContainer">
+              <h4>
+                LISTEN <br>
+                <a href="https://youtube.com/playlist?list=PLw_-nUKOQb6bx_lw6cQDUNgm1MWJ-we_1">
+                  <img class="listen" src="photos/listenityttmom.jpeg" alt="listenityttmom">
+                  </a>
+              </h4>
+          </div>
+
+          <div class="futureboundContainer"style="margin-bottom: 10vw;"">
+              <h4>
+                WATCH <br>
+                <a href="https://youtu.be/5hVDnFvBfdc">
+                  <img class="listen" src="photos/fbtour.jpeg" alt="watchfb">
+                  </a>
+              </h4>
+          </div>
+
+
+          </div>
+
+
+
+        </div>
+
+
+        <script>
+        function w3_open() {
+            document.getElementsByClassName("w3-sidenav")[0].style.width = "20%";
+            document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+        }
+        function w3_close() {
+            document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+        }
+        </script>
+
+
+  </body>
+</html>
