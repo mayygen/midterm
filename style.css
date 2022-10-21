@@ -143,7 +143,6 @@ p3{
   border-width: thin;
 }
 
-
 #customers {
   font-family: walkway;
   width: 100%;
@@ -190,4 +189,12 @@ img.watch{
 
 img.watch:hover{
   opacity: 0.5;
+}
+
+a.socials:link{
+  opacity: 0.9;
+}
+
+a.socials:hover{
+  opacity: 0.6;
 }
