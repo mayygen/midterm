@@ -86,6 +86,8 @@ h3{
   border-color: white;
   border-style: dotted;
   border-width: thin;
+  padding-right: 2vw;
+  padding-left: 2vw;
 }
 h4{
   font-size: 5vw;
@@ -111,6 +113,7 @@ h6{
   border-style: dotted;
   border-width: medium;
 }
+
 
 
 .icons{
@@ -142,6 +145,25 @@ p3{
   border-color: white;
   border-width: thin;
 }
+
+p4{
+  font-size: 7vw;
+  border-color: white;
+  padding: 5vw;
+  border-style: dotted;
+  border-color: white;
+  border-width: medium;
+}
+
+p5{
+  font-size: 7vw;
+  border-color: white;
+  padding: 5vw;
+  border-style: dotted;
+  border-color: red;
+  border-width: medium;
+}
+
 
 #customers {
   font-family: walkway;
