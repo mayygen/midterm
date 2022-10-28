@@ -1,3 +1,9 @@
+header{
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
 .bgHome{
   background:url(photos/homebg.jpeg) fixed center;
 }
@@ -35,56 +41,55 @@
 }
 
 .nameContainer{
-  padding-top: 18vw;
-  padding-bottom: 8vw;
-  width: 80vw;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.ityttmomContainer{
-  padding-top: 20vh;
-  padding-bottom: 7vh;
-}
-
 
 .futureboundContainer{
-  padding: 5vw;
+  backdrop-filter: blur(4px);
+  padding: 4vw;
   width: 80vw;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
 
 }
 
 .nofutureContainer{
-  padding: 5vw;
+  backdrop-filter: blur(3px);
   width: 80vw;
+  padding: 5vw;
   background: rgba(10, 41, 41, 0.5);
 
 }
 .vertigoContainer{
+  backdrop-filter: blur(3px);
   padding: 5vw;
   width: 80vw;
   background: rgba(255, 255, 255, 0.1);
-
 }
 
 h1{
   font-size: 10vw;
 }
 .aboutContainer{
-  padding: 15vmax;
-  width: 80vw;
-  background: rgba(0, 0, 0, 0.5);
-}
-.discoContainer{
-  padding: 5vmax;
-  width: 90vw;
-  background: rgba(255, 255, 255, 0.2);
 
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5vw;
+}
+
+.discoContainer{
+  margin-bottom: 10vw;
 }
 h2{
   font-size: 7vw;
-  border-style: dashed;
-  border-color: white;
-  border-width: thin;
 }
 
 h3{
@@ -97,16 +102,17 @@ h3{
 }
 h4{
   font-size: 5vw;
-  padding-top: 3vw;
+  padding: 2vw;
   border-color: red;
   border-style: dotted;
   border-width: thin;
 }
 
 h5{
+  backdrop-filter: blur(5px);
   font-size: 4vw;
-  background:rgba(0, 0, 0, 0.4);
-  padding: 1vw;
+  background:rgba(0, 0, 0, 0.3);
+  padding: 2vw;
   border-color: red;
   border-style: dotted;
   border-width: thin;
@@ -131,7 +137,7 @@ a.icon1:hover {opacity: 0.6;}
 
 
 p1{
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 p2{
@@ -172,12 +178,14 @@ p5{
 
 
 #customers {
+  backdrop-filter: blur(10px);
   font-family: walkway;
-  width: 100%;
+  width: 80vw;
+  font-size: 2vw;
 }
 
-#customers td, #customers th {
-  padding: 8px;
+#customers td{
+  padding: 3vw;
 }
 
 #customers tr:nth-child(odd){background:rgba(0, 0, 0, 0.6);}
@@ -191,6 +199,10 @@ p5{
   text-align: center;
   background:rgba(255, 255, 255, 0.65);
   color: black;
+}
+
+.trackList{
+  text-align: left;
 }
 
 img.imgIcons{
